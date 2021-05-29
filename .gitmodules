@@ -1,0 +1,6 @@
+[submodule "client"]
+	path = client
+	url = https://github.com/afgalvan/task-client
+[submodule "server"]
+	path = server
+	url = https://github.com/afgalvan/spring-task-api
