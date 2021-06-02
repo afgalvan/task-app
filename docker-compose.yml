@@ -44,7 +44,6 @@ services:
       - ./server/src:/api/src
     ports:
       - 8081:8081
-    command: ./gradlew -t bootRun
 
   nginx:
     container_name: spring-task-proxy
