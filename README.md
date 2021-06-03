@@ -13,3 +13,4 @@ git clone --recurse-submodules --remote-submodules https://github.com/afgalvan/t
 ```bash
 docker-compose up --build
 ```
+Open [http:/localhost](http://localhost) in your browser
