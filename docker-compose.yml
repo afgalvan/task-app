@@ -6,7 +6,7 @@ services:
     container_name: spring-task-client
     restart: always
     environment:
-      - NODE_ENV=$NODE_ENV
+      - NODE_ENV=Docker
     build:
       context: ./client
       dockerfile: Dockerfile
